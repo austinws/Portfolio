@@ -28,6 +28,11 @@ h1{
     font-family: 'Exo', sans-serif;
 }
 
+h2{
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
 h3{
     text-align: center;
     border: black;
@@ -45,8 +50,12 @@ h3{
 p{
     font-family: 'Exo', sans-serif;
     text-align: center;
-    color: black;
-    text-shadow: blueviolet 2px;
+    color: white;
+    text-shadow: whitesmoke;
+}
+
+li{
+    color: white;
 }
 
 .projects{
