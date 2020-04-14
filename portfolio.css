@@ -53,9 +53,18 @@ h4{
 
 p{
     font-family: 'Exo', sans-serif;
-    text-align: center;
+    text-align: left;
     color: white;
     text-shadow: whitesmoke;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #B1B6A6;
 }
 
 li{
@@ -82,13 +91,18 @@ footer{
 
 .contact-links{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 13px;
 }
 
+
 @media screen and (min-width: 700px){
 
+    p{
+        text-align: center;
+    }
+
     .project-one{
         display: flex;
         flex-direction: row;
@@ -96,13 +110,12 @@ footer{
         justify-content: space-evenly;
     }
 
-}
-
-@media screen and (min-width: 1200px){
-    .project-one{
+    .contact-links{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-evenly;
+        padding-bottom: 13px;
     }
+    
+
 }
